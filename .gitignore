@@ -1,0 +1,27 @@
+# OS files
+.DS_Store
+Thumbs.db
+
+# .NET (Backend)
+backend/bin/
+backend/obj/
+*.user
+*.suo
+
+# Node / React (Frontend)
+frontend/node_modules/
+frontend/dist/
+.env
+
+# Python
+.venv/
+__pycache__/
+*.py[cod]
+tests/results/
+docs/tests/
+
+# Dataset (large files should not be tracked)
+data/*
+!data/batched/
+data/batched/*
+!data/batched/.gitkeep
