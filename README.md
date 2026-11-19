@@ -34,6 +34,15 @@ Python benchmarks ─────── HTTP ───────────�
 - **CLI clients:** **Node.js**
 - **Performance scripts:** **Python** (with `requests`; `matplotlib` is optional for charts)
 
+## Dataset
+
+The project uses product metadata from the **Amazon Reviews 2023** dataset in the `Grocery_and_Gourmet_Food` category, originally sourced from the [Amazon Reviews 2023 repository](https://amazon-reviews-2023.github.io/) via the **Download → meta** column. The original metadata file is approximately 1.5 GB and contains around 600,000 product records.
+
+For parallel indexing and streaming JSONL processing, the metadata is split into 100 batch files named `meta_Grocery_and_Gourmet_Food_part_001.jsonl` through `meta_Grocery_and_Gourmet_Food_part_100.jsonl`.
+
+- **Quick start (included in the repository):** The first 8 batch files, about 116 MB total, are tracked in `data/batched/`. This subset is sufficient to build an index and try searches after cloning.
+- **Full dataset (100 batches, about 1.5 GB):** To run full-scale indexing and performance benchmarks, download the complete set of batch files from [Google Drive](https://drive.google.com/drive/folders/1gdZrwiepB_c6tRykpUA0F79iRGH1t5f6?usp=sharing) and place/extract them directly into `data/batched/`.
+
 ## Prerequisites
 
 ### For Docker Compose (recommended)

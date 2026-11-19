@@ -25,3 +25,11 @@ data/*
 !data/batched/
 data/batched/*
 !data/batched/.gitkeep
+!data/batched/meta_Grocery_and_Gourmet_Food_part_001.jsonl
+!data/batched/meta_Grocery_and_Gourmet_Food_part_002.jsonl
+!data/batched/meta_Grocery_and_Gourmet_Food_part_003.jsonl
+!data/batched/meta_Grocery_and_Gourmet_Food_part_004.jsonl
+!data/batched/meta_Grocery_and_Gourmet_Food_part_005.jsonl
+!data/batched/meta_Grocery_and_Gourmet_Food_part_006.jsonl
+!data/batched/meta_Grocery_and_Gourmet_Food_part_007.jsonl
+!data/batched/meta_Grocery_and_Gourmet_Food_part_008.jsonl
